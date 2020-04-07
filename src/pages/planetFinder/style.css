@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+  .planetSelectContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+  }
+  .planetHeaderContainer {
+    font-size: 24px;
+    margin-bottom: 15vh;
+    margin-top: 5vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .planetFinderContainer {
+    overflow: scroll;
+    max-height: 78vh;
+    padding-bottom: 40px;
+  }
+  .planetHeaderContainer {
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    text-align: left;
+  }
+}
