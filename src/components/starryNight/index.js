@@ -1,4 +1,3 @@
-import { LitElement, html } from '@polymer/lit-element';
 import React from 'react';
 /* Style Imports */
 import './style.css';
